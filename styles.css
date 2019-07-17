@@ -1,7 +1,10 @@
 * {
-  background-color: #D9E4F0;
   font-family: 'Raleway', sans-serif;
 
+}
+
+body {
+    background-color: #D9E4F0;
 }
 
 .heading{
@@ -14,6 +17,17 @@
 
 .about {
   background-color: white;
-  /* display: flex;
-  justify-content; */
+}
+
+.photos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+img {
+  flex-wrap: wrap;
+  height: 200px;
+  width: 300px;
+  margin: 25px;
+  padding: 25px;
 }
