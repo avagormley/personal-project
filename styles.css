@@ -72,7 +72,7 @@ h2 {
 }
 
 .card-container {
-  background-color: white;
+  /* background-color: white; */
   width: 550px;
   padding: 10px;
 }
@@ -112,6 +112,7 @@ img{
 .type-here{
   text-align: left;
   font-size: 30px;
+  background-color: #e6ebf2;
 }
 
 .footer {
@@ -125,9 +126,11 @@ img{
 }
 
 .delete-btn {
-  width: 50px;
+  width: 55px;
+  height: 20px;
   border-radius: 4px;
   font-size: 15px;
+  background-color: white;
 }
 
 .globe {
@@ -153,13 +156,15 @@ img{
     margin-right: 300px;
     margin-bottom: 20px;
 }
-input {
-  background-color: #D0D0D0;
 
-}
+
 .whitebackground {
-  background-color: white;
-  width: 750px;
+  background-color: #e6ebf2;
+}
+.grass{
+  display: flex;
+  width: 110%;
+  margin-left:-50px;
 }
 
 /* @media screen and (max-width: 350px) {
