@@ -1,6 +1,7 @@
 * {
-  margin: 0px;
-  border: 0px;
+  margin: 0;
+  padding:0;
+  border: 0;
   font-family: 'Raleway', sans-serif;
 
 }
@@ -165,6 +166,8 @@ img{
   display: flex;
   width: 110%;
   margin-left:-50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 /* @media screen and (max-width: 350px) {
